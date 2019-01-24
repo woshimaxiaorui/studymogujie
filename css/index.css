@@ -1,0 +1,201 @@
+/*瀑布流设置*/
+.box-main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top:30px;
+}
+.pbl{
+	width: 100%;
+	position: relative;
+}
+.column{
+	width:220px;
+	float: left;
+	margin-right:24px ;
+}
+.column-margin{
+	margin-top: 1200px;/*中间三列设置margin-top*/
+}
+.column-last{
+	margin-right: 0;
+}
+.column-wrap{
+	width: 220px;
+	box-sizing: border-box;
+	margin-bottom:24px ;
+	box-shadow: 0 0 18px 0 rgba(0,0,0,.05);
+	border-radius: 10px;
+	position: relative;
+	transition: 0.7s;
+}
+.column-wrap:hover{
+	transform: translateY(-3px);
+}
+.wrap-img{
+	width: 220px;
+	height: 290px;
+	box-sizing: border-box;
+	position: relative;	
+}
+.wrap-img img{
+	border-radius: 9px;
+	width: 100%;
+}
+.small-icon{
+	width: 60px;
+	height: 60px;
+	background: url(../img/small-icon.png);
+	background-size: cover;
+	position: absolute;
+	top:0;
+	right: 0;
+	cursor: pointer;
+	display: none;
+}
+.xing-icon{
+	top:60px;
+}
+.zan{
+	width: 26px;
+	height: 26px;
+	display: block;
+	margin-top:16px ;
+	margin-left: 16px;
+}
+.selection{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+	max-height: 80px;
+	display: block;
+	font-size: 14px;
+	display: none;
+}
+.selection a{
+	color:#fff;
+}
+.wrap-item{
+	width: 220px;
+	padding: 12px 10px;
+	box-sizing: border-box;
+	
+}
+.wrap-item a{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 12px;
+	display: inline-block;
+	max-width: 100%;
+	height: 21px;
+	background: #f1f1f1;
+	margin: 2px 2px 0 0;
+	border-radius: 3px;
+	padding: 0 3px;
+	color: #333;
+	
+}
+.ppicon{
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+}
+.ppicon img{
+	width:100%;
+	vertical-align: middle;
+}
+/*中间部分*/
+.column-wrap-middle{
+	width:710px;
+	position: absolute;
+	left: 245px;
+	box-sizing: border-box;
+}
+.bigmod{
+	width: 710px;
+	height: 750px;
+	margin-bottom:24px;
+	border-radius: 10px;
+	background:#ccc;
+}
+.bigmod img{
+	width: 100%;
+	border-radius: 10px;
+}
+.list-show{
+	width: 710px;
+	border-radius: 10px;
+	overflow: hidden;
+	background: url(../img/index-listshow.gif) no-repeat top;
+	background-size: cover;
+}
+#topshowblock{
+	display: block;
+	height: 55px;
+}
+.list-show-block{
+	display: block;
+	width: 112px;
+	height: 112px;
+	text-align: center;
+	float: left;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.showblock{
+	overflow: hidden;
+	margin-bottom: 20px;
+	padding-left: 12px;
+}
+.showblock-name{
+	font-size: 14px;
+	color: #333;
+	height: 26px;
+	line-height: 26px;
+	margin-top: 75px;
+	text-align: center;
+}
+.showtitle{
+	width: 710px;
+}
+.showtitle-a{
+	width: 120px;
+	height: 35px;
+	font-size: 14px;
+	line-height: 35px;
+	text-align: center;
+	float: left;
+	background: #f1f1f1;
+	color: #333;
+	border-radius: 22px;
+	margin-left: 18px;
+	margin-bottom: 14px;
+}
+.go-top{
+	width: 72px;
+	height: 77px;
+	position: fixed;
+	right: 20px;
+	bottom:60px;
+	border-radius: 6px;
+	background: #fff;
+	z-index: 999;
+	text-align: center;
+	box-shadow: 0 0 6px 0 rgba(0,0,0,0.05);
+	cursor: pointer;
+	display: none;
+}
+.go-top a img{
+	width: 18px;
+	height: 18px;
+	margin-top:18px ;
+	margin-bottom: 14px;
+}
+.go-top a p{
+	color:#999;
+	font-size: 12px;
+	text-align: center;
+}

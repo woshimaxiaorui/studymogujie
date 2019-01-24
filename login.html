@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>欢迎登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="box-top">
+			<div class="header">
+				<a href="#" class="logo"></a>
+			</div>
+		</div>
+		<div class="box-main">
+			<div class="main">
+				<div class="login-box">
+					<div class="tab">
+						<a href="#" class="tab-list active" id="dl">登录</a>
+						<a href="#" class="tab-list" id="zc">注册</a>
+					</div>
+					<div class="login-content" id="login-content">
+						<div class="tishi" id="tishidiv">
+							<span class="tishicontent" id="tishi"></span>
+						</div>
+						<input id="sname" type="text" placeholder="用户名/邮箱/手机号" class="inputtx"/>
+						<input id="spwd" type="password" placeholder="密码" class="inputtx"/>
+						<div class="yanzheng">
+							<div class="text">
+								<input type="text" placeholder="请输入验证码" class="inyzm" id="logininyzm"/>
+							</div>
+							<div class="yanzhengcontent">
+								<div class="yanzhengma" id="loginyzm">
+									
+								</div>
+								<span class="huanyizhang" id="loginhuan">换一张</span>
+							</div>
+						</div>
+						<input type="button" value="登录" class="denglu" id="loginbtn" />
+					</div>
+					<div class="register-content login-content" id="register-content">
+						<div class="register-main">
+							<input id="uname" type="text" placeholder="用户名需以字母开头(用户名可以为邮箱/手机号)" class="inputtx"/><span class="flag t1" id="t1"></span>
+							<input id="upwd" type="password" placeholder="请输入密码" class="inputtx"/><span class="flag t2" id="t2"></span>
+						</div>
+						<div class="yanzheng">
+							<div class="text">
+								<input type="text" placeholder="请输入验证码" class="inyzm" id="regyzm" />
+							</div>
+							<div class="yanzhengcontent">
+								<div class="yanzhengma" id="yzm">
+									
+								</div>
+								<span class="huanyizhang" id="rghuan">换一张</span>
+							</div>
+						</div>
+						<input type="button" value="注册" class="denglu" id="regbtn"/>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="box-bottom">
+			<div class="footer">
+				<div class="footerdown"><!--底部下方内容-->
+						<ul>
+							<li class="notitem"><a href="#">关于我们</a></li>
+							<li><a href="#">招聘信息</a></li>
+							<li><a href="#">联系我们</a></li>
+							<li><a href="#">商家入驻</a></li>
+							<li><a href="#">商家后台</a></li>
+							<li><a href="#">蘑菇商学院</a></li>
+							<li><a href="#">商家社区</a></li>
+							<li><a href="#">规则中心</a></li>
+							<li><a href="#">规则众议院</a></li>
+							<li><a href="#">有害信息举报</a></li>
+							<li><a href="#">用户隐私保护</a></li>
+						</ul>
+					</div>
+					<div class="footerdownline">
+						<span>©2019 Mogujie.com 杭州卷瓜网络有限公司</span>
+					</div>
+					<div class="footerfloor">
+						<p><span>营业执照：913301065526808764</span><b>|</b><span>网络文化经营许可证：浙网文（2016）0349-219号</span><b>|</b><span>增值电信业务经营许可证：浙B2-20110349</span><b>|</b><span>安全责任书</span><b>|</b><span>浙公网安备 33010602002329号</span><b>|</b></p>
+						<p><span>互联网药品信息服务资格证书编号：（浙)-经营性-2018-0002</span><b>|</b><span>浙网食A33010003</span><b>|</b><span>出版物网络交易平台服务经营备案证</span><b>|</b><span>（浙）网械平台备字[2018]第00006号</span><b>|</b></p>
+					</div>
+			</div>
+		</div>
+	</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
+<script src="js/cookie.js"></script>
